@@ -1,0 +1,14 @@
+test_analyzer_combinations (__main__.AnalyzerTestSuite) ... ok
+test_analyzer_face_frequency (__main__.AnalyzerTestSuite) ... ok
+test_analyzer_jackpot (__main__.AnalyzerTestSuite) ... ok
+test_die_df_face (__main__.DieTestSuite) ... ok
+test_die_df_weight (__main__.DieTestSuite) ... ok
+test_does_weight_change (__main__.DieTestSuite) ... ok
+test_roll_returns_list (__main__.DieTestSuite) ... ok
+test_dataframe_play_size (__main__.GameTestSuite) ... ok
+test_narrow_dataframe_test (__main__.GameTestSuite) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.009s
+
+OK
