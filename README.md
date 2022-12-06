@@ -3,7 +3,14 @@ A Monte Carlo Simulator by Tara Haas
 
 ## Snynopsis
 
-You can install this code by doing:
+### Installation
+
+1. Clone the GIT repo:
+
+```
+git clone
+```
+2. Install the montecarlo package:
 
 ```
 pip install montecarlo
