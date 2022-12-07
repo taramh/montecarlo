@@ -70,5 +70,8 @@ Methods:
 
 ### Analyzer Game
 
-Doc String:
+Doc String: An analyzer takes the results of a single game and computes various descriptive statistical properties about it.
+
+Attributes:
+* 
 
