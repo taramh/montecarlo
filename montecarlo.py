@@ -106,7 +106,7 @@ class Analyzer:
         return(jacknum)
     
     def combinations(self):
-        '''Computes all combinations of faces taht were rolled in a game, saves and returns a frequency table for these combinations.'''
+        '''Computes all combinations of faces that were rolled in a game, saves and returns a frequency table for these combinations.'''
         colnum = self.game.shape[1]
         self.rollcombinations = self.game.apply(lambda x : sorted(list(x.iloc[0:colnum])), axis=1).value_counts().to_frame('Frequency of Combination')
         return(self.rollcombinations)
