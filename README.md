@@ -73,5 +73,12 @@ Methods:
 Doc String: An analyzer takes the results of a single game and computes various descriptive statistical properties about it.
 
 Attributes:
-* self.facefreq: A frequency table for the roll results of your game, per roll. Displayed as a data frame.  
+* self.facefreq: A data frame for the roll results of your game, per roll, and their frequency.
+* self.rollcombinations: A data frame of all roll combinations and their frequency.
+* self.jackpots: An integer showing the number of jackpots rolled in a game. Jackpots are when every Die produced the same face.
+
+Methods:
+* face_counts_per_roll(): Returns and saves a frequence table for the roll results of your game, per roll, displayed as a data frame.
+* jackpot(): Stores a data frame of all jackpots (where every die rolled the same face) and which roll number they were. Returns only the number of jackpots.
+* combinations(): Computes all combinations of faces that were rolled in a game, saves and returns a frequency table for these combinations, displayed as a data frame.
 
