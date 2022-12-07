@@ -73,5 +73,5 @@ Methods:
 Doc String: An analyzer takes the results of a single game and computes various descriptive statistical properties about it.
 
 Attributes:
-* 
+* self.facefreq: A frequency table for the roll results of your game, per roll. Displayed as a data frame.  
 
