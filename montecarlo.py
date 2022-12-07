@@ -85,7 +85,7 @@ class Game:
 
 class Analyzer:
     """
-    An analyzer takes the results of a single game and computes various descriptive statistical properties about it. Attributes are: face_counts_per_roll, jackpots, rollcombinations.
+    An analyzer takes the results of a single game and computes various descriptive statistical properties about it.
     """
 
     def __init__(self, game):
